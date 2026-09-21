@@ -1,0 +1,9 @@
+/outputs/
+__pycache__/
+*.py[cod]
+
+# Include the scientific inputs even inside the development workspace.
+!data/
+!data/**
+!site/data/
+!site/data/**

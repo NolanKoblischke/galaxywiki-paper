@@ -1,0 +1,174 @@
+UAT galaxy-row term allowlist
+Generated from Unified Astronomy Thesaurus 6.0.0
+
+Use only the exact UAT preferred labels below when filling a galaxy row's uat_terms field.
+Choose 0-5 terms, ordered from most relevant to least relevant, and only choose terms supported by the quote/summary.
+Prefer specific terms over broad parent terms. Do not add terms from outside this allowlist.
+
+Active galactic nuclei	http://astrothesaurus.org/uat/16
+Active galaxies	http://astrothesaurus.org/uat/17
+AGN host galaxies	http://astrothesaurus.org/uat/2017
+Amorphous irregular galaxies	http://astrothesaurus.org/uat/37
+Andromeda Galaxy	http://astrothesaurus.org/uat/39
+Barred spiral galaxies	http://astrothesaurus.org/uat/136
+BL Lacertae objects	http://astrothesaurus.org/uat/158
+Blazars	http://astrothesaurus.org/uat/164
+Blue cloud galaxies	http://astrothesaurus.org/uat/166
+Blue compact dwarf galaxies	http://astrothesaurus.org/uat/165
+Brightest cluster galaxies	http://astrothesaurus.org/uat/181
+Broad-absorption line quasar	http://astrothesaurus.org/uat/183
+cD galaxies	http://astrothesaurus.org/uat/209
+Circumgalactic medium	http://astrothesaurus.org/uat/1879
+Coma Cluster	http://astrothesaurus.org/uat/270
+Compact dwarf galaxies	http://astrothesaurus.org/uat/281
+Compact galaxies	http://astrothesaurus.org/uat/285
+Compact H II region	http://astrothesaurus.org/uat/286
+Companion galaxies	http://astrothesaurus.org/uat/290
+D galaxies	http://astrothesaurus.org/uat/346
+Disk galaxies	http://astrothesaurus.org/uat/391
+Double galaxies	http://astrothesaurus.org/uat/405
+Double quasars	http://astrothesaurus.org/uat/406
+Draco dwarf galaxy	http://astrothesaurus.org/uat/408
+Dumbbell galaxies	http://astrothesaurus.org/uat/411
+Dwarf elliptical galaxies	http://astrothesaurus.org/uat/415
+Dwarf galaxies	http://astrothesaurus.org/uat/416
+Dwarf irregular galaxies	http://astrothesaurus.org/uat/417
+Dwarf spheroidal galaxies	http://astrothesaurus.org/uat/420
+E+A galaxies	http://astrothesaurus.org/uat/424
+Early-type galaxies	http://astrothesaurus.org/uat/429
+Einstein rings	http://astrothesaurus.org/uat/451
+Elliptical galaxies	http://astrothesaurus.org/uat/456
+Emission line galaxies	http://astrothesaurus.org/uat/459
+Fanaroff-Riley radio galaxies	http://astrothesaurus.org/uat/526
+Field galaxies	http://astrothesaurus.org/uat/533
+Flat-spectrum radio quasars	http://astrothesaurus.org/uat/2163
+Fornax dwarf spheroidal galaxy	http://astrothesaurus.org/uat/548
+Galactic anticenter	http://astrothesaurus.org/uat/564
+Galactic bar	http://astrothesaurus.org/uat/2365
+Galactic bulge	http://astrothesaurus.org/uat/2041
+Galactic center	http://astrothesaurus.org/uat/565
+Galactic winds	http://astrothesaurus.org/uat/572
+Galaxies	http://astrothesaurus.org/uat/573
+Galaxy accretion	http://astrothesaurus.org/uat/575
+Galaxy accretion disks	http://astrothesaurus.org/uat/562
+Galaxy anticenters	http://astrothesaurus.org/uat/577
+Galaxy bars	http://astrothesaurus.org/uat/2364
+Galaxy bulges	http://astrothesaurus.org/uat/578
+Galaxy circumnuclear disk	http://astrothesaurus.org/uat/581
+Galaxy collisions	http://astrothesaurus.org/uat/585
+Galaxy dark matter halos	http://astrothesaurus.org/uat/1880
+Galaxy disks	http://astrothesaurus.org/uat/589
+Galaxy encounters	http://astrothesaurus.org/uat/592
+Galaxy equators	http://astrothesaurus.org/uat/593
+Galaxy fountains	http://astrothesaurus.org/uat/596
+Galaxy interactions	http://astrothesaurus.org/uat/600
+Galaxy jets	http://astrothesaurus.org/uat/601
+Galaxy mergers	http://astrothesaurus.org/uat/608
+Galaxy nuclei	http://astrothesaurus.org/uat/609
+Galaxy pairs	http://astrothesaurus.org/uat/610
+Galaxy photometry	http://astrothesaurus.org/uat/611
+Galaxy planes	http://astrothesaurus.org/uat/613
+Galaxy spheroids	http://astrothesaurus.org/uat/2032
+Galaxy spurs	http://astrothesaurus.org/uat/620
+Galaxy stellar content	http://astrothesaurus.org/uat/621
+Galaxy stellar disks	http://astrothesaurus.org/uat/1594
+Galaxy stellar halos	http://astrothesaurus.org/uat/598
+Galaxy structure	http://astrothesaurus.org/uat/622
+Galaxy tails	http://astrothesaurus.org/uat/2125
+Galaxy tides	http://astrothesaurus.org/uat/623
+Galaxy triplets	http://astrothesaurus.org/uat/624
+Galaxy winds	http://astrothesaurus.org/uat/626
+Giant elliptical galaxies	http://astrothesaurus.org/uat/651
+Giant galaxies	http://astrothesaurus.org/uat/652
+Giant radio galaxies	http://astrothesaurus.org/uat/654
+Gould Belt	http://astrothesaurus.org/uat/658
+Gravitational lensing	http://astrothesaurus.org/uat/670
+Green valley galaxies	http://astrothesaurus.org/uat/683
+H I regions	http://astrothesaurus.org/uat/693
+H II regions	http://astrothesaurus.org/uat/694
+Haro galaxies	http://astrothesaurus.org/uat/701
+HI shells	http://astrothesaurus.org/uat/728
+High-luminosity active galactic nuclei	http://astrothesaurus.org/uat/2034
+High-redshift galaxies	http://astrothesaurus.org/uat/734
+High-velocity clouds	http://astrothesaurus.org/uat/735
+Infrared excess galaxies	http://astrothesaurus.org/uat/789
+Infrared galaxies	http://astrothesaurus.org/uat/790
+Interacting galaxies	http://astrothesaurus.org/uat/802
+Irregular galaxies	http://astrothesaurus.org/uat/864
+L galaxies	http://astrothesaurus.org/uat/895
+Large Magellanic Cloud	http://astrothesaurus.org/uat/903
+Late-type galaxies	http://astrothesaurus.org/uat/907
+Lenses	http://astrothesaurus.org/uat/2347
+Lenticular galaxies	http://astrothesaurus.org/uat/915
+LINER galaxies	http://astrothesaurus.org/uat/925
+Local Group	http://astrothesaurus.org/uat/929
+Low surface brightness galaxies	http://astrothesaurus.org/uat/940
+Low-luminosity active galactic nuclei	http://astrothesaurus.org/uat/2033
+Luminous infrared galaxies	http://astrothesaurus.org/uat/946
+Lyman-alpha galaxies	http://astrothesaurus.org/uat/978
+Lyman-break galaxies	http://astrothesaurus.org/uat/979
+Magellanic Clouds	http://astrothesaurus.org/uat/990
+Magellanic irregular galaxies	http://astrothesaurus.org/uat/1877
+Magellanic Stream	http://astrothesaurus.org/uat/991
+Markarian galaxies	http://astrothesaurus.org/uat/1006
+Megamasers	http://astrothesaurus.org/uat/1023
+Milky Way dark matter halo	http://astrothesaurus.org/uat/1049
+Milky Way disk	http://astrothesaurus.org/uat/1050
+Milky Way Galaxy	http://astrothesaurus.org/uat/1054
+Milky Way Galaxy fountains	http://astrothesaurus.org/uat/1055
+Milky Way stellar halo	http://astrothesaurus.org/uat/1060
+N galaxies	http://astrothesaurus.org/uat/1084
+Nucleated dwarf galaxies	http://astrothesaurus.org/uat/1130
+Perseus Cluster	http://astrothesaurus.org/uat/1214
+Polar jets	http://astrothesaurus.org/uat/1274
+Post-starburst galaxies	http://astrothesaurus.org/uat/2176
+Primordial galaxies	http://astrothesaurus.org/uat/1293
+Protogalaxies	http://astrothesaurus.org/uat/1298
+Quasar-galaxy pairs	http://astrothesaurus.org/uat/1316
+Quasars	http://astrothesaurus.org/uat/1319
+Quenched galaxies	http://astrothesaurus.org/uat/2016
+Radio active galactic nuclei	http://astrothesaurus.org/uat/2134
+Radio cores	http://astrothesaurus.org/uat/1341
+Radio galaxies	http://astrothesaurus.org/uat/1343
+Radio hot spots	http://astrothesaurus.org/uat/1344
+Radio jets	http://astrothesaurus.org/uat/1347
+Radio lobes	http://astrothesaurus.org/uat/1348
+Radio loud quasars	http://astrothesaurus.org/uat/1349
+Radio plumes	http://astrothesaurus.org/uat/1352
+Radio quiet quasars	http://astrothesaurus.org/uat/1354
+Ram pressure stripped tails	http://astrothesaurus.org/uat/2126
+Red sequence galaxies	http://astrothesaurus.org/uat/1373
+Relativistic disks	http://astrothesaurus.org/uat/1388
+Relativistic jets	http://astrothesaurus.org/uat/1390
+Ring galaxies	http://astrothesaurus.org/uat/1400
+Sagittarius dwarf spheroidal galaxy	http://astrothesaurus.org/uat/1423
+Sculptor dwarf elliptical galaxy	http://astrothesaurus.org/uat/1436
+Seyfert galaxies	http://astrothesaurus.org/uat/1447
+Shocks	http://astrothesaurus.org/uat/2086
+Small Magellanic Cloud	http://astrothesaurus.org/uat/1468
+Spiral arms	http://astrothesaurus.org/uat/1559
+Spiral galaxies	http://astrothesaurus.org/uat/1560
+Spiral pitch angle	http://astrothesaurus.org/uat/1561
+Star formation	http://astrothesaurus.org/uat/1569
+Star forming regions	http://astrothesaurus.org/uat/1565
+Starburst galaxies	http://astrothesaurus.org/uat/1570
+Stellar populations	http://astrothesaurus.org/uat/1622
+Stellar rings	http://astrothesaurus.org/uat/1628
+Stellar streams	http://astrothesaurus.org/uat/2166
+Strong gravitational lensing	http://astrothesaurus.org/uat/1643
+Supermassive black holes	http://astrothesaurus.org/uat/1663
+Tailed radio galaxies	http://astrothesaurus.org/uat/1682
+Tidal disruption	http://astrothesaurus.org/uat/1696
+Tidal distortion	http://astrothesaurus.org/uat/1697
+Tidal interaction	http://astrothesaurus.org/uat/1699
+Tidal radius	http://astrothesaurus.org/uat/1700
+Tidal tails	http://astrothesaurus.org/uat/1701
+Triangulum Galaxy	http://astrothesaurus.org/uat/1712
+Ultracompact dwarf galaxies	http://astrothesaurus.org/uat/1734
+Ultraluminous infrared galaxies	http://astrothesaurus.org/uat/1735
+Unbarred spiral galaxies	http://astrothesaurus.org/uat/1745
+Ursa Minor dwarf spheroidal galaxy	http://astrothesaurus.org/uat/1753
+Virgo Cluster	http://astrothesaurus.org/uat/1772
+Virgo Supercluster	http://astrothesaurus.org/uat/1773
+X-ray active galactic nuclei	http://astrothesaurus.org/uat/2035
+X-ray quasars	http://astrothesaurus.org/uat/1821
