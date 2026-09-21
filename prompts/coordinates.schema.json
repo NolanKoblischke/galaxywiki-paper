@@ -1,0 +1,194 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "GalaxyWiki coordinate-resolution subagent output row",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "mention_id",
+    "paper_id",
+    "raw_name",
+    "aliases_in_paper",
+    "resolved_ra_deg",
+    "resolved_dec_deg",
+    "coordinate_system",
+    "resolution_status",
+    "confidence",
+    "coordinate_source",
+    "resolved_name",
+    "ned_queries_attempted",
+    "ned_object_name",
+    "source_urls",
+    "evidence",
+    "method",
+    "reason_if_null"
+  ],
+  "properties": {
+    "mention_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "paper_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "raw_name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "aliases_in_paper": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "resolved_ra_deg": {
+      "type": ["number", "null"],
+      "minimum": 0,
+      "maximum": 360
+    },
+    "resolved_dec_deg": {
+      "type": ["number", "null"],
+      "minimum": -90,
+      "maximum": 90
+    },
+    "coordinate_system": {
+      "type": ["string", "null"],
+      "enum": ["FK5 J2000", "ICRS", null]
+    },
+    "resolution_status": {
+      "type": "string",
+      "enum": [
+        "resolved_from_paper",
+        "resolved_from_ned",
+        "resolved_from_other_source",
+        "ambiguous",
+        "unresolved_after_best_effort"
+      ]
+    },
+    "confidence": {
+      "type": "string",
+      "enum": ["high", "medium", "low", "none"]
+    },
+    "coordinate_source": {
+      "type": ["string", "null"],
+      "enum": ["paper", "ned", "paper_and_ned", "other_source", null]
+    },
+    "resolved_name": {
+      "type": ["string", "null"],
+      "description": "Best resolved object name or catalog designation, if any."
+    },
+    "ned_queries_attempted": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["query", "status", "url"],
+        "properties": {
+          "query": {
+            "type": "string",
+            "minLength": 1
+          },
+          "status": {
+            "type": "string",
+            "enum": ["resolved", "no_rows", "ambiguous", "not_applicable", "error"]
+          },
+          "url": {
+            "type": ["string", "null"]
+          },
+          "note": {
+            "type": ["string", "null"]
+          }
+        }
+      }
+    },
+    "ned_object_name": {
+      "type": ["string", "null"],
+      "description": "NED standard/cross-ID object name used for the accepted coordinate, if any."
+    },
+    "source_urls": {
+      "type": "array",
+      "minItems": 0,
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "description": "Brief evidence strings, table references, API field names, or short snippets supporting the decision.",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "method": {
+      "type": ["string", "null"],
+      "description": "Short explanation of how the coordinate was chosen."
+    },
+    "reason_if_null": {
+      "type": ["string", "null"],
+      "description": "Required for ambiguous or unresolved rows; null for resolved rows."
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "resolution_status": {
+            "enum": [
+              "resolved_from_paper",
+              "resolved_from_ned",
+              "resolved_from_other_source"
+            ]
+          }
+        }
+      },
+      "then": {
+        "required": ["resolved_ra_deg", "resolved_dec_deg", "coordinate_system"],
+        "properties": {
+          "resolved_ra_deg": {
+            "type": "number"
+          },
+          "resolved_dec_deg": {
+            "type": "number"
+          },
+          "coordinate_system": {
+            "type": "string"
+          },
+          "reason_if_null": {
+            "type": "null"
+          }
+        }
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "resolution_status": {
+            "enum": ["ambiguous", "unresolved_after_best_effort"]
+          }
+        }
+      },
+      "then": {
+        "properties": {
+          "resolved_ra_deg": {
+            "type": "null"
+          },
+          "resolved_dec_deg": {
+            "type": "null"
+          },
+          "coordinate_system": {
+            "type": "null"
+          },
+          "confidence": {
+            "enum": ["low", "none"]
+          },
+          "reason_if_null": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  ]
+}

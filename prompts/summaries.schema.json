@@ -1,0 +1,11 @@
+{
+  "type": "OBJECT",
+  "properties": {
+    "summary": {
+      "type": "STRING"
+    }
+  },
+  "required": [
+    "summary"
+  ]
+}
