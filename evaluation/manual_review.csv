@@ -1,61 +1,121 @@
-review_index,mention_id,paper_id,raw_name,initial_discussion,initial_coordinate,explicitly_submitted,final_identity_assessment,precision_issue,quotation_concern,final_category,separation_arcsec,comparison_ra_deg,comparison_dec_deg,comparison_frame,comparison_kind,assessment_basis,notes,evidence_urls
-1,egm_00036183,astro-ph0309620,2320 + 203,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/astro-ph/0309620 | https://ned.ipac.caltech.edu/NED::API/OverviewOfObject?TARGET=2320%2B203
-2,egm_00013173,2009_06882,SMC,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2009.06882
-3,egm_00034604,1112_1692,NGC 891,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1112.1692
-4,egm_00027437,astro-ph0502039,Mrk 421,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/astro-ph/0502039 | https://ned.ipac.caltech.edu/byname?objname=Mrk%20421
-5,egm_00027342,1909_01444,PMN J0948+0022,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1909.01444 | https://ned.ipac.caltech.edu/byname?objname=PMN%20J0948%2B0022
-6,egm_00009939,astro-ph0109165,Mrk 421,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/astro-ph/0109165
-7,egm_00000551,astro-ph0210428,M51,yes,yes,true,ambiguous_pair_component,false,true,poor_quotes_and_likely_component_mismatch,132.12808174794478,202.469625833333,47.1952073611111,FK5 J2000,proposed,expert_review_with_agent_assisted_final_adjudication,Weak excerpts; ambiguous component.,https://arxiv.org/abs/astro-ph/0210428 | https://arxiv.org/pdf/astro-ph/0210595#page=5 | https://arxiv.org/pdf/astro-ph/0210428#page=1 | https://arxiv.org/pdf/astro-ph/0210428#page=4 | https://ned.ipac.caltech.edu/NED::API/OverviewOfObject?TARGET=M51 | https://ned.ipac.caltech.edu/NED::API/OverviewOfObject?TARGET=NGC+5194
-8,egm_00007559,1503_01836,NGC 3718,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1503.01836
-9,egm_00006951,2308_09470,Mkn 421,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2308.09470
-10,egm_00023921,0910_0704,MRC1217-209,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/0910.0704 | https://ned.ipac.caltech.edu/byname?objname=MRC%201217-209
-11,egm_00036916,2101_01293,M31,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2101.01293 | https://ned.ipac.caltech.edu/byname?objname=M31
-12,egm_00031169,2307_10115,SPT0418-47 System,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2307.10115 | https://ned.ipac.caltech.edu/byname?objname=SPT-S%20J041839-4751.9 | https://www.legacysurvey.org/viewer?ra=64.66529166667&dec=-47.86463888889&zoom=15
-13,egm_00021943,2208_04750,Source R,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2208.04750 | https://ned.ipac.caltech.edu/byname?objname=2MASX%20J14004272-4804474
-14,egm_00014885,1601_02597,NGC 4697,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1601.02597
-15,egm_00031835,astro-ph9806289,154,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/astro-ph/9806289 | https://ned.ipac.caltech.edu/byname?objname=DDO%20154
-16,egm_00027063,1205_6470,COSLA-35,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1205.6470
-17,egm_00032974,1605_02631,NGC 5506,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1605.02631 | https://ned.ipac.caltech.edu/byname?objname=NGC%205506
-18,egm_00011443,2002_01811,VDES J0330--4025,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2002.01811 | https://arxiv.org/pdf/2002.01811
-19,egm_00030778,1803_02406,dw1325-33,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1803.02406 | https://arxiv.org/pdf/1803.02406
-20,egm_00040965,astro-ph0301492,ESO347 G017,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/astro-ph/0301492 | https://ned.ipac.caltech.edu/byname?objname=ESO%20347-G017 | https://arxiv.org/pdf/astro-ph/0301492
-21,egm_00012535,1202_2181,PKS 2155 304,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1202.2181 | https://arxiv.org/pdf/1202.2181 | https://ned.ipac.caltech.edu/byname?objname=PKS%202155-304 | https://www.legacysurvey.org/viewer?ra=329.71693800875&dec=-30.2255884060556&zoom=15 | https://ned.ipac.caltech.edu/NED::API/OverviewOfObject?TARGET=PKS%202155%20304
-22,egm_00034203,1205_2559,Mrk 509,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1205.2559 | https://ned.ipac.caltech.edu/byname?objname=Mrk%20509 | https://arxiv.org/pdf/1205.2559
-23,egm_00000766,0704_3480,RX J1420.4+5334,yes,yes,true,unresolved_host,false,false,unresolved_host_association,3.8621319998152686,215.1016666666667,53.57,J2000,candidate,expert_review_with_agent_assisted_final_adjudication,Host remains uncertain.,https://arxiv.org/abs/0704.3480 | https://ned.ipac.caltech.edu/byname?objname=RX%20J1420.4%2B5334 | https://arxiv.org/pdf/0704.3480 | https://arxiv.org/pdf/0704.3480#page=3 | https://arxiv.org/pdf/1210.0020#page=11 | https://arxiv.org/pdf/1210.0020#page=5 | https://ned.ipac.caltech.edu/NED::API/OverviewOfObject?TARGET=RX+J1420.4%2B5334
-24,egm_00031603,2402_18643,GN 42437,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2402.18643
-25,egm_00039002,astro-ph0507694,Pictor A,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/astro-ph/0507694 | https://arxiv.org/pdf/astro-ph/0507694 | https://www.legacysurvey.org/viewer?ra=79.9571791666&dec=-45.7788483333&zoom=15
-26,egm_00042983,2104_13333,3FHL J1944.9 2143,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2104.13333 | https://arxiv.org/pdf/2104.13333
-27,egm_00008825,2204_00636,M31,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2204.00636
-28,egm_00035605,2008_02692,AGN J1249+3449,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2008.02692 | https://arxiv.org/pdf/2008.02692 | https://www.legacysurvey.org/viewer?ra=192.42624999999998&dec=34.82472222222223&zoom=15
-29,egm_00011247,1008_1064,Antennae,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1008.1064
-30,egm_00041005,2009_01400,JO69,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2009.01400 | https://www.legacysurvey.org/viewer?ra=329.36517&dec=-7.80358&zoom=15
-31,egm_00040565,2301_07113,NGC5011C,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2301.07113 | https://www.legacysurvey.org/viewer?ra=198.2996202&dec=-43.2651787&zoom=15
-32,egm_00004302,1307_4764,SL2SJ140614+520253,yes,yes,true,supported,true,false,agent_name_decoding_precision_error,2.418173024970748,211.5594,52.0482,J2000 (survey table),proposed,expert_review_with_agent_assisted_final_adjudication,Prefer measured survey coordinates.,https://arxiv.org/abs/1307.4764 | https://arxiv.org/pdf/1307.4764 | https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=J/ApJ/785/144&-c=211.558333%2052.048056&-c.rs=30&-out.all=1 | https://arxiv.org/pdf/1307.4764#page=9 | https://ned.ipac.caltech.edu/NED::API/OverviewOfObject?TARGET=SL2SJ140614%2B520253
-33,egm_00038421,1507_04358,NGC 4395,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1507.04358
-34,egm_00035036,1104_2593,UCD3,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1104.2593 | https://arxiv.org/pdf/1104.2593 | https://ned.ipac.caltech.edu/byname?objname=UCD3
-35,egm_00042795,0709_1301,PKS 0405 385,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/0709.1301 | https://ned.ipac.caltech.edu/byname?objname=PKS%200405-385
-36,egm_00043983,2008_04515,3C 273,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2008.04515 | https://ned.ipac.caltech.edu/byname?objname=3C%20273
-37,egm_00005587,1508_05065,NGC 3521,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1508.05065
-38,egm_00001824,astro-ph0509123,NGC 4945,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/astro-ph/0509123
-39,egm_00003072,1306_6628,M31,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1306.6628
-40,egm_00041941,astro-ph9812215,NGC 4151,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/astro-ph/9812215
-41,egm_00002970,1604_08207,PTF 10jwd host,yes,yes,true,supported,false,true,accepted_transient_position_proxy,0.8520138989411233,250.930503322678,44.5290696744138,ICRS (candidate only),candidate,expert_review_with_agent_assisted_final_adjudication,Supernova proxy; misattributed quote.,https://arxiv.org/abs/1604.08207 | https://arxiv.org/pdf/1604.08207 | https://www.legacysurvey.org/viewer?ra=250.9305208333333&dec=44.52883333333333&zoom=15 | https://arxiv.org/pdf/1604.08207#page=3 | https://arxiv.org/pdf/1604.08207#page=15 | https://ned.ipac.caltech.edu/NED::API/OverviewOfObject?TARGET=PTF%2010jwd | https://skyserver.sdss.org/dr18/en/tools/explore/summary.aspx?id=1237651714799502189
-42,egm_00002111,1905_02143,M87,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1905.02143
-43,egm_00021561,1706_09900,NGC1377,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1706.09900
-44,egm_00027027,1612_01549,J0217-01,yes,yes,true,supported,true,false,agent_name_decoding_precision_error,12.172788659932515,34.4908789851114,-1.22347844775843,ICRS (SDSS DR18),proposed,expert_review_with_agent_assisted_final_adjudication,Truncated identifier; imprecise position.,https://arxiv.org/abs/1612.01549 | https://arxiv.org/pdf/1612.01549#page=3 | https://skyserver.sdss.org/dr18/en/tools/explore/summary.aspx?id=1237663782601884257 | https://simbad.cds.unistra.fr/simbad/sim-id?Ident=SDSS%20J021757.81-011324.4&output.format=ASCII
-45,egm_00019070,2005_09663,SDSS J144916,yes,yes,true,supported,true,false,minor_published_rounding_precision_issue,1.5794042740694376,222.319651,15.116719,ICRS (SDSS DR12),proposed,expert_review_with_agent_assisted_final_adjudication,Correct galaxy; rounded coordinates.,https://arxiv.org/abs/2005.09663 | https://arxiv.org/pdf/2005.09663 | https://www.legacysurvey.org/viewer?ra=222.32&dec=15.117&zoom=15 | https://arxiv.org/pdf/2005.09663#page=5 | https://vizier.cds.unistra.fr/viz-bin/asu-tsv?-source=V%2F147%2Fsdss12&-c=222.32+15.117&-c.rs=18&-out=SDSS12%2CRA_ICRS%2CDE_ICRS%2Czsp%2Cclass&-out.max=20 | https://ned.ipac.caltech.edu/NED::API/OverviewOfObject?TARGET=SDSS%20J144916.71%2B150700.1
-46,egm_00024424,1105_6037,Sculptor,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1105.6037
-47,egm_00042796,0709_1301,J1819+3845,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/0709.1301 | https://ned.ipac.caltech.edu/byname?objname=CLASS%20J1819%2B3845
-48,egm_00006711,1905_11827,Large Magellanic Cloud,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1905.11827
-49,egm_00029390,1603_00019,NGC 4111,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1603.00019
-50,egm_00040418,2102_06843,NGC 7318b,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2102.06843 | https://www.legacysurvey.org/viewer?ra=338.99327&dec=33.966057&zoom=15
-51,egm_00002185,1308_6168,S5 0836+710,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1308.6168 | https://arxiv.org/pdf/1308.6168
-52,egm_00010774,2305_07743,Large Magellanic Cloud,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2305.07743
-53,egm_00031304,1901_09044,Reticulum II,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1901.09044
-54,egm_00020179,1211_5377,M82,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1211.5377
-55,egm_00039837,0902_0951,J 111914.32+600457.2,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/0902.0951 | https://ned.ipac.caltech.edu/byname?objname=SDSS%20J111914.32%2B600457.2
-56,egm_00020310,2403_00414,BCG1,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2403.00414 | https://ned.ipac.caltech.edu/byname?objname=SDSS%20J155820.00%2B271400.2
-57,egm_00021272,1108_3662,NGC 972,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1108.3662
-58,egm_00028499,1804_05052,Sculptor,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/1804.05052
-59,egm_00000589,2211_00048,NGC 4293,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/2211.00048
-60,egm_00026555,astro-ph0509718,WGA J2347 + 0852,yes,yes,true,supported,false,false,initial_review_retained,,,,,,initial_expert_review_retained,Initial review retained.,https://arxiv.org/abs/astro-ph/0509718
+mention_id,paper_id,raw_name,notes
+egm_00036183,astro-ph0309620,2320 + 203,
+egm_00013173,2009_06882,SMC,
+egm_00034604,1112_1692,NGC 891,
+egm_00027437,astro-ph0502039,Mrk 421,
+egm_00027342,1909_01444,PMN J0948+0022,
+egm_00009939,astro-ph0109165,Mrk 421,
+egm_00000551,astro-ph0210428,M51,Weak quotes. Ambiguous component
+egm_00007559,1503_01836,NGC 3718,
+egm_00006951,2308_09470,Mkn 421,
+egm_00023921,0910_0704,MRC1217-209,
+egm_00036916,2101_01293,M31,
+egm_00031169,2307_10115,SPT0418-47 System,
+egm_00021943,2208_04750,Source R,
+egm_00014885,1601_02597,NGC 4697,
+egm_00031835,astro-ph9806289,154,
+egm_00027063,1205_6470,COSLA-35,
+egm_00032974,1605_02631,NGC 5506,
+egm_00011443,2002_01811,VDES J0330--4025,
+egm_00030778,1803_02406,dw1325-33,
+egm_00040965,astro-ph0301492,ESO347 G017,
+egm_00012535,1202_2181,PKS 2155 304,
+egm_00034203,1205_2559,Mrk 509,
+egm_00000766,0704_3480,RX J1420.4+5334,Uncertain host association
+egm_00031603,2402_18643,GN 42437,
+egm_00039002,astro-ph0507694,Pictor A,
+egm_00042983,2104_13333,3FHL J1944.9 2143,
+egm_00008825,2204_00636,M31,
+egm_00035605,2008_02692,AGN J1249+3449,
+egm_00011247,1008_1064,Antennae,
+egm_00041005,2009_01400,JO69,
+egm_00040565,2301_07113,NGC5011C,
+egm_00004302,1307_4764,SL2SJ140614+520253,Truncated identifier coordinates
+egm_00038421,1507_04358,NGC 4395,
+egm_00035036,1104_2593,UCD3,
+egm_00042795,0709_1301,PKS 0405 385,
+egm_00043983,2008_04515,3C 273,
+egm_00005587,1508_05065,NGC 3521,
+egm_00001824,astro-ph0509123,NGC 4945,
+egm_00003072,1306_6628,M31,
+egm_00041941,astro-ph9812215,NGC 4151,
+egm_00002970,1604_08207,PTF 10jwd host,Quote describes different object
+egm_00002111,1905_02143,M87,
+egm_00021561,1706_09900,NGC1377,
+egm_00027027,1612_01549,J0217-01,Truncated identifier coordinates
+egm_00019070,2005_09663,SDSS J144916,Rounded paper coordinates
+egm_00024424,1105_6037,Sculptor,
+egm_00042796,0709_1301,J1819+3845,
+egm_00006711,1905_11827,Large Magellanic Cloud,
+egm_00029390,1603_00019,NGC 4111,
+egm_00040418,2102_06843,NGC 7318b,
+egm_00002185,1308_6168,S5 0836+710,
+egm_00010774,2305_07743,Large Magellanic Cloud,
+egm_00031304,1901_09044,Reticulum II,
+egm_00020179,1211_5377,M82,
+egm_00039837,0902_0951,J 111914.32+600457.2,
+egm_00020310,2403_00414,BCG1,
+egm_00021272,1108_3662,NGC 972,
+egm_00028499,1804_05052,Sculptor,
+egm_00000589,2211_00048,NGC 4293,
+egm_00026555,astro-ph0509718,WGA J2347 + 0852,
+egm_00007820,1805_01544,SDSS J0825+0740,Missing spectral line labels
+egm_00020962,2310_06928,J083132,Joint galaxy discussion
+egm_00032975,1805_00046,1H 0707--495,
+egm_00033585,2104_13961,Hor I,
+egm_00042471,0907_2890,LMC,
+egm_00006738,1803_08055,NGC 4578,Joint galaxy discussion
+egm_00014654,1202_5033,PRG 14,
+egm_00039440,2107_00244,NGC 7314,
+egm_00040783,2104_14599,DDO 70,
+egm_00036522,1312_3953,NGC 6946,Malformed LaTeX
+egm_00027600,2305_07561,target 5,
+egm_00037572,2007_02616,NGC 5252,Malformed LaTeX
+egm_00035948,2012_00014,NEPLA-4,
+egm_00032213,1607_00803,Sagittarius dwarf (Sgr),
+egm_00038488,0808_2385,NGC 3147,
+egm_00028943,astro-ph0702595,NGC 3348,
+egm_00015746,1702_01909,1H 0707 495,
+egm_00000167,1310_2770,NGC 454E,
+egm_00040304,1406_2702,System 17,
+egm_00005300,2006_03991,B2 1633+38,
+egm_00007270,2311_12234,CEERS-93316,
+egm_00018846,astro-ph0109262,NGC 3627,
+egm_00006436,2405_11026,ZTF18aajyzfv,
+egm_00029505,2207_06624,Mrk 58,
+egm_00000755,1011_6660,1ES 0229+200,
+egm_00032173,1605_03196,3C 432,
+egm_00020618,1605_00276,III Zw 2,
+egm_00013798,2212_09383,SMC,
+egm_00026062,astro-ph9808205,PG 1404+226,
+egm_00016505,2006_09381,NGC 5813,
+egm_00022812,2210_11724,J0219+015,
+egm_00023400,1308_5484,Large Magellanic Cloud,
+egm_00024694,1811_10615,G6/G7,
+egm_00033701,0705_3853,NGC 6946,
+egm_00041849,0811_1988,NGC 5248,
+egm_00005011,1205_1563,NGC 4261,
+egm_00022336,1202_2713,NGC 4536,
+egm_00005887,1603_00488,Mrk273,
+egm_00036581,astro-ph0510475,NGC 1068,
+egm_00035308,astro-ph0610302,253,
+egm_00019167,2010_03566,COS-1009842,Malformed LaTeX
+egm_00018870,2404_18658,Small Magellanic Cloud,
+egm_00030016,astro-ph0310462,NGC 2442,
+egm_00009248,1707_01228,VCC 1488,
+egm_00042314,astro-ph0603073,DDO 221,
+egm_00037891,0802_4044,B0218+357,
+egm_00020274,2305_02189,J1205,
+egm_00001625,astro-ph0512143,NGC 128,
+egm_00024201,2111_04755,JW39,
+egm_00023853,1707_04256,M31,
+egm_00030253,1505_03394,0217-0052,
+egm_00027705,1608_06264,NGC 6689,
+egm_00005954,2303_11361,J1254+1856,
+egm_00026164,1906_00773,3C 279,
+egm_00038435,astro-ph0702669,APM 08279+5255,
+egm_00036384,2010_14914,Mrk 212,
+egm_00032708,2306_08646,2MASS J20033397+7013369,
+egm_00007645,0906_1069,red tip,
+egm_00027916,astro-ph0011082,5C6.17,
+egm_00033227,1104_4891,NGC 4278,

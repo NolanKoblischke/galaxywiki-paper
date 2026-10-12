@@ -202,8 +202,7 @@ def summarize(groups: list[dict[str, object]], edge_count: int, mentions: list[d
     strict = tiers["raw_substring"] + tiers["normalized_whitespace_substring"]
     fragments = [r for r in quote_matches if r["match_tier"] == "unmatched"]
     fragmented_matches = sum(r["all_fragments_matched"] == "true" for r in fragments)
-    identities = Counter(r["final_identity_assessment"] for r in manual)
-    precision = [r for r in manual if r["precision_issue"] == "true"]
+    review_notes = Counter(r["notes"] for r in manual if r["notes"])
 
     return {
         "extraction": {
@@ -253,14 +252,9 @@ def summarize(groups: list[dict[str, object]], edge_count: int, mentions: list[d
         },
         "saved_manual_review": {
             "reviewed_records": len(manual),
-            "initial_discussion_labels": dict(Counter(r["initial_discussion"] for r in manual)),
-            "initial_coordinate_labels": dict(Counter(r["initial_coordinate"] for r in manual)),
-            "final_identity_assessments": dict(identities),
-            "supported_identity_fraction": identities["supported"] / len(manual),
-            "precision_concerns": len(precision),
-            "precision_concerns_in_supported_identities": sum(r["final_identity_assessment"] == "supported" for r in precision),
-            "largest_documented_precision_issue_arcsec": max(float(r["separation_arcsec"]) for r in precision),
-            "quotation_concerns": sum(r["quotation_concern"] == "true" for r in manual),
+            "records_with_notes": sum(review_notes.values()),
+            "records_without_notes": sum(not r["notes"] for r in manual),
+            "notes": dict(review_notes),
         },
     }
 
