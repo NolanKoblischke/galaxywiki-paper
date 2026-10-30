@@ -1,4 +1,4 @@
-# GalaxyWiki
+# GalaxyWiki Website: [https://galaxywiki.nolank.ca/](https://galaxywiki.nolank.ca/)
 
 **GalaxyWiki Website: [https://galaxywiki.nolank.ca/](https://galaxywiki.nolank.ca/)**
 
