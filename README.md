@@ -1,5 +1,7 @@
 # GalaxyWiki
 
+**GalaxyWiki Website: [https://galaxywiki.nolank.ca/](https://galaxywiki.nolank.ca/)**
+
 This repository contains the paper’s data, prompts, evaluations, and prebuilt website.
 
 Run `uv run reproduce.py` from this directory to rebuild coordinate groups and summarize saved results in `outputs/`. Python 3.13 or newer is required. The first run downloads dependencies; no model calls or credentials are needed.
